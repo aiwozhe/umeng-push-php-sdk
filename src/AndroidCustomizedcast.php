@@ -1,6 +1,8 @@
 <?php
 namespace UPush;
 
+use Exception;
+
 class AndroidCustomizedcast extends AndroidNotification {
 
 	function  __construct() {

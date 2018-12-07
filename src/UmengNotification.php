@@ -4,7 +4,7 @@ namespace UPush;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
-use \Exception;
+use Exception;
 
 abstract class UmengNotification 
 {

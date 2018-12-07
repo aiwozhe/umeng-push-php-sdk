@@ -1,6 +1,8 @@
 <?php
 namespace UPush;
 
+use Exception;
+
 class AndroidFilecast extends AndroidNotification {
 	function  __construct() {
 		parent::__construct();

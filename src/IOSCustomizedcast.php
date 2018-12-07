@@ -1,6 +1,8 @@
 <?php
 namespace UPush;
 
+use Exception;
+
 class IOSCustomizedcast extends IOSNotification {
 
 	function  __construct() {

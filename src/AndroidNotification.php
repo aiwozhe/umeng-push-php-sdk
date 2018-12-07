@@ -1,20 +1,22 @@
 <?php
 namespace UPush;
 
+use Exception;
+
 abstract class AndroidNotification extends UmengNotification {
 	// The array for payload, please see API doc for more information
 	protected $androidPayload = array(
 									"display_type"  =>  "notification",
 									"body"         	=>  array(
-															"ticker"       =>   NULL,
-															"title"        => NULL,
+															"ticker"       =>   '',
+															"title"        => '',
 															"text"         => NULL,
 															//"icon"       => "xx", 
 															//largeIcon    => "xx",
 															"play_vibrate" => "true", 
 															"play_lights"  => "true",
 															"play_sound"   => "true",
-															"after_open"   => NULL,
+//															"after_open"   => NULL,
 															//"url"        => "xx",
 															//"activity"   => "xx",
 															//custom       => "xx"

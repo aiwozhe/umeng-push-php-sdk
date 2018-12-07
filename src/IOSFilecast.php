@@ -1,6 +1,8 @@
 <?php
 namespace UPush;
 
+use Exception;
+
 class IOSFilecast extends IOSNotification {
 	function  __construct() {
 		parent::__construct();
